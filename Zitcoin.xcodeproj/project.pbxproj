@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7916DCD428358F03005FE9A1 /* CoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7916DCD328358F03005FE9A1 /* CoinData.swift */; };
+		7916DCD72835BBC7005FE9A1 /* CoinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7916DCD62835BBC7005FE9A1 /* CoinManager.swift */; };
 		7963834528356BB400606BD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7963834428356BB400606BD2 /* AppDelegate.swift */; };
 		7963834728356BB400606BD2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7963834628356BB400606BD2 /* SceneDelegate.swift */; };
 		7963834928356BB400606BD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7963834828356BB400606BD2 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7916DCD328358F03005FE9A1 /* CoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinData.swift; sourceTree = "<group>"; };
+		7916DCD62835BBC7005FE9A1 /* CoinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinManager.swift; sourceTree = "<group>"; };
 		7963834128356BB400606BD2 /* Zitcoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zitcoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7963834428356BB400606BD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7963834628356BB400606BD2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7916DCD128358EDA005FE9A1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7963834828356BB400606BD2 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		7916DCD228358EE7005FE9A1 /* Wiev */ = {
+			isa = PBXGroup;
+			children = (
+				7963834A28356BB400606BD2 /* Main.storyboard */,
+			);
+			name = Wiev;
+			sourceTree = "<group>";
+		};
+		7916DCD528358F13005FE9A1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7916DCD328358F03005FE9A1 /* CoinData.swift */,
+				7916DCD62835BBC7005FE9A1 /* CoinManager.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		7963833828356BB400606BD2 = {
 			isa = PBXGroup;
 			children = (
@@ -58,8 +87,9 @@
 			children = (
 				7963834428356BB400606BD2 /* AppDelegate.swift */,
 				7963834628356BB400606BD2 /* SceneDelegate.swift */,
-				7963834828356BB400606BD2 /* ViewController.swift */,
-				7963834A28356BB400606BD2 /* Main.storyboard */,
+				7916DCD528358F13005FE9A1 /* Model */,
+				7916DCD228358EE7005FE9A1 /* Wiev */,
+				7916DCD128358EDA005FE9A1 /* Controller */,
 				7963834D28356BB500606BD2 /* Assets.xcassets */,
 				7963834F28356BB500606BD2 /* LaunchScreen.storyboard */,
 				7963835228356BB500606BD2 /* Info.plist */,
@@ -138,9 +168,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7916DCD428358F03005FE9A1 /* CoinData.swift in Sources */,
 				7963834928356BB400606BD2 /* ViewController.swift in Sources */,
 				7963834528356BB400606BD2 /* AppDelegate.swift in Sources */,
 				7963834728356BB400606BD2 /* SceneDelegate.swift in Sources */,
+				7916DCD72835BBC7005FE9A1 /* CoinManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
